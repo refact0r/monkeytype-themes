@@ -1,0 +1,80 @@
+/* ==UserStyle==
+@name           monkeytype base
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    small tweaks for monkeytype
+@author         refact0r
+@homepageURL    https://github.com/refact0r/monkeytype-themes
+@updateURL      https://github.com/refact0r/monkeytype-themes/base.user.css
+==/UserStyle== */
+
+@-moz-document domain("monkeytype.com") {    
+    /* hide scrollbar */
+    body {
+        overflow-y: hidden;
+    }
+    
+    /* font */
+    *:not(i) {
+        font-family: Cascadia Code !important;
+        font-weight: 200 !important;
+    }
+    
+    /* typing test margins */
+    #middle {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    /* center menu */
+	#top {
+		grid-template-columns: 1fr auto 1fr;
+    }
+    
+    /* hide account name */
+    .icon-button .text {
+        display: none;
+    }
+    
+    /* hide bottom */
+	#bottom {
+        display: none;
+    }
+    
+    /* change logo text */
+    #top .logo .top {
+        visibility: hidden; 
+    }
+    #top .logo .top:after {
+        content: 'reject humanity';
+        visibility: visible;
+        display: block; 
+        position: relative; 
+    }
+    #top .logo .bottom {
+        visibility: hidden;
+    }
+    #top .logo .bottom:after {
+        content: 'become monke';
+        visibility: visible; 
+        display: block; 
+        position: relative;
+        margin-top: -2rem;
+        color: var(--main-color);
+    }
+    
+    /* caret width */
+    #caret.default {
+        width: 1px;
+    }
+    
+    /* change live wpm and acc text size */
+    #largeLiveWpmAndAcc {
+        font-size: 6rem;
+    }
+
+    /* increase top menu gap */
+    #menu {
+        gap: 1rem;
+    }
+}
