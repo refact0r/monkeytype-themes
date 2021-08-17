@@ -20,10 +20,10 @@ Many themes like Base and Icons only change some parts of monkeytype and can be 
 
 [Install link](https://github.com/refact0r/monkeytype-themes/raw/main/base.user.css)
 
-Basic tweaks like removing the unnecessary bottom buttons, centering the top menu, and changing logo text.
+Basic tweaks like hiding the unnecessary bottom buttons, centering the top menu, and changing logo text.
 
 ### Icons
 
 [Install link](https://github.com/refact0r/monkeytype-themes/raw/main/icons.user.css)
 
-Replaces the default Font Awesome icons in monkeytype with Bootstrap icons (which look better). Also adds a few animations to the menu buttons and the buttons that show after completing a test.
+Replaces the default Font Awesome icons with Bootstrap icons (which look better). Also adds a few animations to the menu buttons and the buttons that show after completing a test.
