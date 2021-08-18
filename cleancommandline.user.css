@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name           monkeytype clean command line
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    clean command line
+@author         refact0r
+@homepageURL    https://github.com/refact0r/monkeytype-themes
+@updateURL      https://github.com/refact0r/monkeytype-themes/cleancommandline.user.css
+==/UserStyle== */
+
+@-moz-document domain("monkeytype.com") {
+    /* clean command line */
+    #commandLine {
+        background: none !important;
+    }
+    #commandLineWrapper {
+        background: none;
+        backdrop-filter: blur(5px) brightness(0.5);
+        transition: 0.5s ease;
+    }
+    #commandLine input {
+        background: none !important;
+    }
+    #commandLine > div:first-child {
+        border-radius: 0;
+        border-bottom: 1px solid var(--sub-color) !important;
+    }
+
+    /* command line scrollbar */
+    #commandLine .suggestions {
+        scrollbar-width: none !important;
+        scrollbar-color: rgba(255, 255, 255, .1) transparent !important;
+    }
+    #commandLine .suggestions:hover {
+        scrollbar-width: thin !important;
+    }
+    #commandLine .suggestions::-webkit-scrollbar {
+        width: 0px;
+    }
+    #commandLine .suggestions:hover::-webkit-scrollbar {
+        width: 7px;
+    }
+}
