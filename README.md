@@ -14,7 +14,7 @@ Welcome to monkeytype-themes, a repository containing all the custom  themes I h
 
 ## Themes
 
-Many themes like Base and Icons only change some parts of monkeytype and can be used together.
+NOTE: Many themes like Base and Icons only change some parts of monkeytype and can be used together.
 
 ### Base
 
