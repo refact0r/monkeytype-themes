@@ -27,3 +27,9 @@ Basic tweaks like hiding the unnecessary bottom buttons, centering the top menu,
 [Install link](https://github.com/refact0r/monkeytype-themes/raw/main/icons.user.css)
 
 Replaces the default Font Awesome icons with Bootstrap icons (which look better). Also adds a few animations to the menu buttons and the buttons that show after completing a test.
+
+### Clean command line
+
+[Install link](https://github.com/refact0r/monkeytype-themes/raw/main/icons.user.css)
+
+Removes command line box background and adds a blur behind it for a cleaner look. Works best if you already have a background image.
