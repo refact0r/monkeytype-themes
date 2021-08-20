@@ -6,11 +6,9 @@ Welcome to monkeytype-themes, a repository containing all the custom  themes I h
 
 1. Install the Stylus browser extension: [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
-2. Open any css file in this repository and click the "Raw" button at the top of the file OR click an install link in the themes section below.
+2. Click an install link in the themes section below OR open any css file in this repository and click the "Raw" button at the top of the file.
 
 3. The stylus extension should open up with a button to install the style.
-
-4. Make sure to check the "Check for updates" box to get automatic updates if I update the theme in the future.
 
 ## Themes
 
