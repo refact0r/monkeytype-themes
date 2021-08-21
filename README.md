@@ -28,6 +28,6 @@ Replaces the default Font Awesome icons with Bootstrap icons (which look better)
 
 ### Clean command line
 
-[Install link](https://github.com/refact0r/monkeytype-themes/raw/main/icons.user.css)
+[Install link](https://github.com/refact0r/monkeytype-themes/raw/main/cleancommandline.user.css)
 
 Removes command line box background and adds a blur behind it for a cleaner look. Works best if you already have a background image.
