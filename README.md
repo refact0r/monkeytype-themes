@@ -1,6 +1,6 @@
 # monkeytype-themes
 
-Welcome to monkeytype-themes, a repository containing all the custom  themes I have created for [monkeytype](https://monkeytype.com).
+Welcome to monkeytype-themes, a repository containing custom  themes I have created for [monkeytype](https://monkeytype.com).
 
 ## How to install themes
 
