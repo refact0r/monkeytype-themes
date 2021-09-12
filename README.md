@@ -10,9 +10,9 @@ Welcome to monkeytype-themes, a repository containing custom  themes I have crea
 
 3. The stylus extension should open up with a button to install the style.
 
-## Themes
+## Component Themes
 
-Most themes only change some parts of monkeytype and can be used together.
+These are themes only change one specific part of Monkeytype and can be used together with other themes.
 
 ### Base
 
@@ -32,6 +32,10 @@ Replaces the default Font Awesome icons with Bootstrap icons (which look better)
 
 Removes command line box background and adds a blur behind it for a cleaner look. Works best if you already have a background image.
 
+
+## Style Themes
+
+These are themes that change the color and feel of Monkeytype. Don't mix style themes, but feel free to use them with component themes.
 
 ### Iceland
 
