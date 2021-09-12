@@ -10,7 +10,6 @@
 
 @-moz-document domain("monkeytype.com") {    
     /* hide scrollbar */
-    /*test*/
     body {
         overflow-y: hidden;
     }
