@@ -41,27 +41,29 @@
         display: none;
     }
     
-    /* change logo text */
-    #top .logo .top {
-        visibility: hidden; 
+    #top .logo .icon {
+        width: 3rem;
     }
-    #top .logo .top:after {
-        content: 'reject humanity';
-        visibility: visible;
-        display: block; 
-        position: relative; 
-    }
-    #top .logo .bottom {
+    #top .logo .text {
         visibility: hidden;
     }
-    #top .logo .bottom:after {
+    #top .logo .text .top:after {
+        content: 'reject humanity';
+        visibility: visible; 
+        display: block; 
+        position: relative;
+        font-size: 0.8rem;
+        margin-top: -.8rem;
+        margin-left: -.15rem;
+    }
+    #top .logo .text:after {
         content: 'become monke';
         visibility: visible; 
         display: block; 
         position: relative;
         margin-top: -2rem;
-        color: var(--main-color);
     }
+
     
     /* caret width */
     #caret.default {
