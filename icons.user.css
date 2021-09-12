@@ -12,7 +12,7 @@
     @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 
     /* base styling for bootstrap icons */
-    i:before {
+    i::before, .supportButtons .button div, .contactButtons .button div {
         display: inline-block;
         font-family: bootstrap-icons !important;
         font-style: normal;
@@ -215,12 +215,6 @@
     .fa-sort-up::before {
         content: "\f238";
     }
-    .fa-circle-notch::before {
-        /* this is the loading icon so im not gonna change it */
-        font-family: "Font Awesome 5 Free" !important;
-        font-weight: inherit !important;
-        vertical-align: 0;
-    }
     .fa-unlink::before {
         content: "\f471";
     }
@@ -242,22 +236,76 @@
     .fa-google::before {
         content: "\f3f0";
     }
+    .fa-envelope::before {
+        content: "\f32f";
+    }
+    .fa-code::before {
+        content: "\f2c6";
+    }
+    .fa-discord::before {
+        content: "\f300";
+    }
+    .fa-twitter::before {
+        content: "\f5ef";
+    }
+    .fa-file-contract::before {
+        content: "\f38b";
+    }
+    .fa-shield-alt::before {
+        content: "\f53f";
+    }
+    .fa-lock::before {
+        content: "\f47b";
+    }
+    .fa-donate::before {
+        content: "\f64a";
+    }
+    .fa-code-branch::before {
+        content: "\f2ec";
+    }
+    .fa-copy::before {
+        content: "\f290";
+    }
+    .fa-play::before {
+        content: "\f4f5";
+    }
+    .fa-pause::before {
+        content: "\f4c4";
+    }
+    .fa-github::before {
+        content: "\f3ed";
+    }
+    
+    /* don't change these icons because they don't have a bootstrap equivalent */
+    .fa-circle-notch::before {
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: inherit !important;
+        vertical-align: 0;
+    }
+    .fa-patreon::before {
+        font-family: "Font Awesome 5 Brands" !important;
+        font-weight: inherit !important;
+    }
+    .fa-tshirt::before {
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+    }
 
     /* adjust sizes */
     .icon-button {
         font-size: 1.2em;
     }
     .view-start i {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     .view-leaderboards i {
         font-size: 0.9em;
     }
     .view-account, .view-login i {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     #restartTestButton i {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     .bottom .buttons i {
         font-size: 1.2em;
