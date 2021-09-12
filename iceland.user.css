@@ -1,0 +1,117 @@
+/* ==UserStyle==
+@name           monkeytype iceland
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Iceland theme for monkeytype
+@author         refact0r
+@homepageURL    https://github.com/refact0r/monkeytype-themes
+@updateURL      https://github.com/refact0r/monkeytype-themes/iceland.user.css
+==/UserStyle== */
+@-moz-document domain("monkeytype.com") {
+    /* theme colors */
+    * {
+        --bg-color: #161821;
+        --caret-color: #d2d4de;
+        --main-color: hsl(220, 70%, 70%);
+        --sub-color: hsl(220, 40%, 80%);
+        --text-color: hsl(220, 10%, 90%);
+        --error-color: #e27878;
+        --error-extra-color: #e2a478;
+        --colorful-error-color: #e27878;
+        --colorful-error-extra-color: #e2a478;
+    }
+    
+    /* background and effects */
+    body {
+        background-image: url("https://data.1freewallpapers.com/download/bridge-aerial-view-river-ice-iceland.jpg") !important;
+		background-size: cover;
+        background-position: center !important;
+		overflow: hidden;
+        text-shadow: 1px 1px 3px #00000050 !important;
+    }
+	.customBackground {
+		transition: backdrop-filter 1s ease !important;
+		backdrop-filter: blur(0px) brightness(0.6);
+	}
+    body[style*="cursor: none"] .customBackground {
+        backdrop-filter: blur(5px) brightness(0.4);
+    }
+    
+    /* text shadow */
+    .word.error {
+        text-shadow: 1px 1px 3px #00000050 !important;
+    }
+    
+    /* menu transition */
+	  #top {
+        transition: transform 1s ease;
+	  }
+    #top.focus {
+        transform: translateY(-100px);
+    }
+    #top.focus .config {
+        opacity: 1 !important;
+    }
+    #top.focus #menu {
+        color: var(--sub-color) !important;
+    }
+    #top.focus #menu .icon-button {
+        color: var(--sub-color) !important;
+    }
+    
+    /* position timer bar and transition */
+    #timer {
+        top: 50%;
+        bottom: 50%;
+        transform: translate(0, -40%);
+        transition: height 0.5s ease;
+        height: 0;
+    }
+    #timerWrapper[style*="opacity: 1"] #timer {
+        height: 0.5rem;
+    }
+    #timerWrapper {
+        opacity: 1 !important;
+    }
+    
+    /* position words */
+    #wordsWrapper {
+        height: 6rem !important;
+        margin-bottom: 8rem;
+    }
+    #typingTest {
+        margin-top: 2rem;
+    }
+    
+    /* live wpm and live acc transitions */
+    #liveWpm {
+        display: block !important;
+        transition: transform 1s ease;
+    }
+    #liveWpm.hidden {
+        transform: translateY(400px);
+    }
+    #liveAcc {
+        display: block !important;
+        transition: transform 1s ease;
+    }
+    #liveAcc.hidden {
+        transform: translateY(400px);
+    }
+    
+    /* letter fading */
+    #words letter.correct {
+        animation: fadeOut 3s ease forwards;
+    }
+    @keyframes fadeOut {
+        100% { opacity:0; }
+    }
+    
+    /* change logo text */
+    #top .logo .text .top:after {
+        content: 'monkeytype' !important;
+    }
+    #top .logo .text:after {
+        content: 'iceland' !important;
+    }
+}
