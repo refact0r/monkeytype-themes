@@ -16,21 +16,27 @@ These are themes only change one specific part of Monkeytype and can be used tog
 
 ### Base
 
-[Install link](https://github.com/refact0r/monkeytype-themes/raw/main/base.user.css)
+[Install](https://github.com/refact0r/monkeytype-themes/raw/main/base.user.css)
 
 Basic tweaks like hiding the unnecessary bottom buttons, centering the top menu, and changing logo text.
 
+<img width=600 src="https://user-images.githubusercontent.com/34758569/133004865-16617f82-fb29-47f4-b8a1-ee23f565eb74.png">
+
 ### Icons
 
-[Install link](https://github.com/refact0r/monkeytype-themes/raw/main/icons.user.css)
+[Install](https://github.com/refact0r/monkeytype-themes/raw/main/icons.user.css)
 
 Replaces the default Font Awesome icons with Bootstrap icons (which look better). Also adds a few animations to the menu buttons and the buttons that show after completing a test.
 
+<img width=600 src="https://user-images.githubusercontent.com/34758569/133005472-895d8a7c-ba79-4f9f-b478-ee1d11ac854a.png">
+
 ### Clean command line
 
-[Install link](https://github.com/refact0r/monkeytype-themes/raw/main/cleancommandline.user.css)
+[Install](https://github.com/refact0r/monkeytype-themes/raw/main/cleancommandline.user.css)
 
 Removes command line box background and adds a blur behind it for a cleaner look. Works best if you already have a background image.
+
+<img width=600 src="https://user-images.githubusercontent.com/34758569/133005516-75e0de7d-b192-4548-84b3-f413c0d95851.png">
 
 
 ## Style Themes
@@ -41,4 +47,7 @@ These are themes that change the color and feel of Monkeytype. Don't mix style t
 
 [Install link](https://github.com/refact0r/monkeytype-themes/raw/main/iceland.user.css)
 
-Iceland theme.
+Iceland theme. Colors based off the Iceberg Dark preset theme.
+
+<img width=600 src="https://user-images.githubusercontent.com/34758569/133005549-34133b1b-ccba-435f-ae1b-c1ae5aa85824.png">
+
