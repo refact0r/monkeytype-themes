@@ -47,7 +47,7 @@ These are themes that change the color and feel of Monkeytype. Don't mix style t
 
 [Install link](https://github.com/refact0r/monkeytype-themes/raw/main/iceland.user.css)
 
-Iceland theme. Colors based off the Iceberg Dark preset theme.
+Iceland theme. Colors based off the Iceberg Dark preset theme. USE WITH BASE THEME
 
 <img width=600 src="https://user-images.githubusercontent.com/34758569/133005549-34133b1b-ccba-435f-ae1b-c1ae5aa85824.png">
 
