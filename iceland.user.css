@@ -12,9 +12,9 @@
     * {
         --bg-color: #161821;
         --caret-color: #d2d4de;
-        --main-color: hsl(220, 70%, 70%);
-        --sub-color: hsl(220, 40%, 80%);
-        --text-color: hsl(220, 10%, 90%);
+        --main-color: #7da1e8;
+        --sub-color: #b8c5e0;
+        --text-color: #e3e5e8;
         --error-color: #e27878;
         --error-extra-color: #e2a478;
         --colorful-error-color: #e27878;
@@ -37,15 +37,26 @@
         backdrop-filter: blur(5px) brightness(0.4);
     }
     
-    /* text shadow */
-    .word.error {
-        text-shadow: 1px 1px 3px #00000050 !important;
+    /* letter fading */
+    #words letter.correct {
+        animation: fadeOut 3s ease forwards;
+    }
+    @keyframes fadeOut {
+        100% { opacity:0; }
+    }
+    
+    /* change logo text */
+    #top .logo .text .top:after {
+        content: 'monkeytype' !important;
+    }
+    #top .logo .text:after {
+        content: 'iceland' !important;
     }
     
     /* menu transition */
-	  #top {
+    #top {
         transition: transform 1s ease;
-	  }
+    }
     #top.focus {
         transform: translateY(-100px);
     }
@@ -57,6 +68,22 @@
     }
     #top.focus #menu .icon-button {
         color: var(--sub-color) !important;
+    }
+    
+    /* live wpm and live acc transitions */
+    #liveWpm {
+        display: block !important;
+        transition: transform 1s ease;
+    }
+    #liveWpm.hidden {
+        transform: translateY(400px);
+    }
+    #liveAcc {
+        display: block !important;
+        transition: transform 1s ease;
+    }
+    #liveAcc.hidden {
+        transform: translateY(400px);
     }
     
     /* position timer bar and transition */
@@ -81,37 +108,5 @@
     }
     #typingTest {
         margin-top: 2rem;
-    }
-    
-    /* live wpm and live acc transitions */
-    #liveWpm {
-        display: block !important;
-        transition: transform 1s ease;
-    }
-    #liveWpm.hidden {
-        transform: translateY(400px);
-    }
-    #liveAcc {
-        display: block !important;
-        transition: transform 1s ease;
-    }
-    #liveAcc.hidden {
-        transform: translateY(400px);
-    }
-    
-    /* letter fading */
-    #words letter.correct {
-        animation: fadeOut 3s ease forwards;
-    }
-    @keyframes fadeOut {
-        100% { opacity:0; }
-    }
-    
-    /* change logo text */
-    #top .logo .text .top:after {
-        content: 'monkeytype' !important;
-    }
-    #top .logo .text:after {
-        content: 'iceland' !important;
     }
 }
