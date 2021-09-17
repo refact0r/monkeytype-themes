@@ -51,3 +51,11 @@ Iceland theme, with colors based off the Iceberg Dark preset theme. Use with bas
 
 <img width=600 src="https://user-images.githubusercontent.com/34758569/133005549-34133b1b-ccba-435f-ae1b-c1ae5aa85824.png">
 
+### Gruvbox Dark
+
+[Install](https://github.com/refact0r/monkeytype-themes/raw/main/gruvboxdark.user.css)
+
+Gruvbox dark theme. Same colors as the monkeytype preset grubox dark.
+
+<img width=600 src="https://user-images.githubusercontent.com/34758569/133863325-a108a7a2-84ae-49f1-a555-6830d8b15d41.png">
+
