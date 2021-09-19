@@ -16,8 +16,7 @@
     
     /* font */
     *:not(i) {
-        font-family: Cascadia Code !important;
-        font-weight: 200 !important;
+        font-family: var(--font) !important;
     }
     
     /* typing test margins */
