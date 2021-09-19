@@ -6,13 +6,13 @@ Welcome to monkeytype-themes, a repository containing custom  themes I have crea
 
 1. Install the Stylus browser extension: [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
-2. Click an install link in the themes section below OR open any css file in this repository and click the "Raw" button at the top of the file.
+2. Click an install link below OR open any css file in this repository and click the "Raw" button at the top of the file.
 
 3. The stylus extension should open up with a button to install the style.
 
 ## Component Themes
 
-These are themes that only change a specific thing and can be used together with any other theme.
+These are themes that change small parts of monkeytype and can be used together with any other theme.
 
 ### Base
 
@@ -47,7 +47,7 @@ These are themes that change the color and feel of Monkeytype. Don't mix style t
 
 [Install](https://github.com/refact0r/monkeytype-themes/raw/main/iceland.user.css)
 
-Iceland theme, with colors based off the Iceberg Dark preset theme. Use with base theme.
+Iceland theme, with colors based off the Iceberg Dark preset theme.
 
 <img width=600 src="https://user-images.githubusercontent.com/34758569/133005549-34133b1b-ccba-435f-ae1b-c1ae5aa85824.png">
 
