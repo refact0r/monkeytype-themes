@@ -47,7 +47,7 @@ These are themes that change the color and feel of Monkeytype. Don't mix style t
 
 [Install](https://github.com/refact0r/monkeytype-themes/raw/main/iceland.user.css)
 
-Iceland theme, with colors based off the Iceberg Dark preset theme. Make sure you have timer/progress style on "bar".
+Iceland theme. Colors based off the Iceberg Dark preset theme. Make sure you have timer/progress style on "bar".
 
 <img width=600 src="https://user-images.githubusercontent.com/34758569/133005549-34133b1b-ccba-435f-ae1b-c1ae5aa85824.png">
 
@@ -55,7 +55,15 @@ Iceland theme, with colors based off the Iceberg Dark preset theme. Make sure yo
 
 [Install](https://github.com/refact0r/monkeytype-themes/raw/main/gruvboxdark.user.css)
 
-Gruvbox dark theme. Same colors as the monkeytype preset grubox dark.
+Gruvbox dark theme. Same colors as the preset theme gruvbox dark.
 
 <img width=600 src="https://user-images.githubusercontent.com/34758569/133863325-a108a7a2-84ae-49f1-a555-6830d8b15d41.png">
+
+### Leaves
+
+[Install](https://github.com/refact0r/monkeytype-themes/raw/main/leaves.user.css)
+
+Leaves theme. Colors based off the Terra preset theme.
+
+<img width=600 src="https://user-images.githubusercontent.com/34758569/133953498-91596bb5-0c87-45ba-a987-26b15d6a9049.png">
 
