@@ -10,6 +10,8 @@ Welcome to monkeytype-themes, a repository containing custom  themes I have crea
 
 3. The stylus extension should open up with a button to install the style.
 
+**NOTE FOR FIREFOX USERS: You need to enable backdrop-blur in the firefox config for background blur to work. Here is a tutorial: https://dev.to/snkds/how-to-enable-backdrop-filter-in-firefox-2n8e**
+
 ## Component Themes
 
 These are themes that change small parts of monkeytype and can be used together with any other theme.
