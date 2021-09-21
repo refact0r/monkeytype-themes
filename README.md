@@ -2,11 +2,13 @@
 
 Welcome to monkeytype-themes, a repository containing custom  themes I have created for [monkeytype](https://monkeytype.com).
 
+Contact me in the #custom-themes channel of the Monkeytype discord if you need any help (my username is refact0r).
+
 ## How to install themes
 
 1. Install the Stylus browser extension: [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
-2. Click an install link below OR open any css file in this repository and click the "Raw" button at the top of the file.
+2. Click a theme install link below OR open any css file in this repository and click the "Raw" button at the top of the file.
 
 3. The stylus extension should open up with a button to install the style.
 
