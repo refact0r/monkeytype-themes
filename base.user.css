@@ -86,4 +86,37 @@
     @keyframes fadeOut {
         100% { opacity:0; }
     }
+    
+    /* menu transition */
+    #top {
+        transition: transform 1s ease;
+    }
+    #top.focus {
+        transform: translateY(-100px);
+    }
+    #top.focus .config {
+        opacity: 1 !important;
+    }
+    #top.focus #menu {
+        color: var(--sub-color) !important;
+    }
+    #top.focus #menu .icon-button {
+        color: var(--sub-color) !important;
+    }
+    
+    /* live wpm and live acc transitions */
+    #liveWpm {
+        display: block !important;
+        transition: transform 1s ease;
+    }
+    #liveWpm.hidden {
+        transform: translateY(400px);
+    }
+    #liveAcc {
+        display: block !important;
+        transition: transform 1s ease;
+    }
+    #liveAcc.hidden {
+        transform: translateY(400px);
+    }
 }
