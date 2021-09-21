@@ -14,9 +14,29 @@
         overflow-y: hidden;
     }
     
-    /* font */
+    /* force font on logo */
     *:not(i) {
         font-family: var(--font) !important;
+    }
+    
+    /* hide bottom */
+	#bottom {
+        display: none;
+    }
+    
+    /* center menu */
+	#top {
+		grid-template-columns: 1fr auto 1fr;
+    }
+
+    /* increase menu gap */
+    #menu {
+        gap: 1rem;
+    }
+    
+    /* hide account name */
+    .icon-button .text {
+        display: none;
     }
     
     /* typing test margins */
@@ -25,21 +45,7 @@
         margin-right: 10%;
     }
     
-    /* center menu */
-	#top {
-		grid-template-columns: 1fr auto 1fr;
-    }
-    
-    /* hide account name */
-    .icon-button .text {
-        display: none;
-    }
-    
-    /* hide bottom */
-	#bottom {
-        display: none;
-    }
-    
+    /* change logo text */
     #top .logo .icon {
         width: 3rem;
     }
@@ -62,7 +68,6 @@
         position: relative;
         margin-top: -2rem;
     }
-
     
     /* caret width */
     #caret.default {
@@ -73,9 +78,12 @@
     #largeLiveWpmAndAcc {
         font-size: 6rem;
     }
-
-    /* increase top menu gap */
-    #menu {
-        gap: 1rem;
+    
+    /* letter fading */
+    #words letter.correct {
+        animation: fadeOut 3s ease forwards;
+    }
+    @keyframes fadeOut {
+        100% { opacity:0; }
     }
 }
