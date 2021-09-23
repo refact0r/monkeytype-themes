@@ -71,3 +71,11 @@ Leaves theme. Colors based off the terror below preset theme.
 
 <img width=600 src="https://user-images.githubusercontent.com/34758569/133953498-91596bb5-0c87-45ba-a987-26b15d6a9049.png">
 
+### Nord
+
+[Install](https://github.com/refact0r/monkeytype-themes/raw/main/nord.user.css)
+
+Nord theme. Colors based off the nord preset theme.
+
+<img width=600 src="https://user-images.githubusercontent.com/34758569/134452193-18f45789-7a0c-492f-a1bc-4e2ae0de9218.png">
+
