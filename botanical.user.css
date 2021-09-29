@@ -32,10 +32,10 @@
     }
     .customBackground {
         transition: backdrop-filter 1s ease !important;
-        backdrop-filter: brightness(0.6) saturate(0.6) blur(0px);
+        backdrop-filter: brightness(0.6) saturate(0.7) blur(0px);
     }
     body[style*="cursor: none"] .customBackground {
-        backdrop-filter:  brightness(0.4) saturate(0.6) blur(5px);
+        backdrop-filter:  brightness(0.4) saturate(0.7) blur(5px);
     }
     
     /* change logo text */
