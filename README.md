@@ -63,13 +63,13 @@ Gruvbox dark theme. Same colors as the preset theme gruvbox dark.
 
 <img width=600 src="https://user-images.githubusercontent.com/34758569/133863325-a108a7a2-84ae-49f1-a555-6830d8b15d41.png">
 
-### Leaves
+### Botanical
 
 [Install](https://github.com/refact0r/monkeytype-themes/raw/main/leaves.user.css)
 
-Leaves theme. Colors based off the terror below preset theme.
+Botanical theme. Colors based off the botanical preset theme.
 
-<img width=600 src="https://user-images.githubusercontent.com/34758569/133953498-91596bb5-0c87-45ba-a987-26b15d6a9049.png">
+<img width=600 src="https://user-images.githubusercontent.com/34758569/135358100-33efec78-d2c7-4872-8a4b-f4b383ff1ad0.png">
 
 ### Nord
 
