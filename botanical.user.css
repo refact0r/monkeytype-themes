@@ -1,20 +1,20 @@
 /* ==UserStyle==
-@name           monkeytype leaves
+@name           monkeytype botanical
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    leaves theme for monkeytype
+@description    botanical theme for monkeytype
 @author         refact0r
 @homepageURL    https://github.com/refact0r/monkeytype-themes
-@updateURL      https://github.com/refact0r/monkeytype-themes/raw/main/leaves.user.css
+@updateURL      https://github.com/refact0r/monkeytype-themes/raw/main/botanical.user.css
 ==/UserStyle== */
 @-moz-document domain("monkeytype.com") {
     /* theme colors */
     * {
         --bg-color: #0b1e1a;
-        --main-color: #83bca7;
-        --caret-color: #83bca7;
-        --sub-color: #017e72;
-        --text-color: #babdc5;
+        --main-color: hsl(174, 30%, 58%);
+        --caret-color: hsl(174, 30%, 58%);
+        --sub-color: hsl(169, 30%, 34%);
+        --text-color: #E9F0F3;
         --error-color: #bf616a;
         --error-extra-color: #793e44;
         --colorful-error-color: #bf616a;
@@ -32,10 +32,10 @@
     }
     .customBackground {
         transition: backdrop-filter 1s ease !important;
-        backdrop-filter: blur(0px) brightness(0.5);
+        backdrop-filter: brightness(0.6) saturate(0.6) blur(0px);
     }
     body[style*="cursor: none"] .customBackground {
-        backdrop-filter: blur(5px) brightness(0.4);
+        backdrop-filter:  brightness(0.4) saturate(0.6) blur(5px);
     }
     
     /* change logo text */
@@ -43,6 +43,6 @@
         content: 'monkeytype' !important;
     }
     #top .logo .text:after {
-        content: 'leaves' !important;
+        content: 'botanical' !important;
     }
 }
