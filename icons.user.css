@@ -275,6 +275,12 @@
     .fa-github::before {
         content: "\f3ed";
     }
+    .fa-times::before {
+        content: "\f62a";
+    }
+    .fa-filter::before {
+        content: "\f3e1";
+    }
     
     /* don't change these icons because they don't have a bootstrap equivalent */
     .fa-circle-notch::before {
