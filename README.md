@@ -12,7 +12,7 @@ Contact me in the #custom-themes channel of the Monkeytype discord if you need a
 
 3. The stylus extension should open up with a button to install the style.
 
-**NOTE FOR FIREFOX USERS: You need to enable backdrop-filter in the firefox config for background blur to work. Here is a tutorial: https://dev.to/snkds/how-to-enable-backdrop-filter-in-firefox-2n8e**
+**NOTE FOR FIREFOX USERS: You need to enable backdrop-filter in the firefox config for background blur to work. Tutorial [here](https://dev.to/snkds/how-to-enable-backdrop-filter-in-firefox-2n8e).**
 
 ## Component Themes
 
