@@ -4,7 +4,7 @@ Welcome to monkeytype-themes, a repository containing custom  themes I have crea
 
 Contact me in the #custom-themes channel of the Monkeytype discord if you need any help (my username is refact0r).
 
-
+<br>
 
 ## How to install themes
 
@@ -16,7 +16,7 @@ Contact me in the #custom-themes channel of the Monkeytype discord if you need a
 
 NOTE FOR FIREFOX USERS: You need to enable backdrop-filter in the firefox config for background blur to work. Tutorial [here](https://dev.to/snkds/how-to-enable-backdrop-filter-in-firefox-2n8e).
 
-
+<br>
 
 ## Component Themes
 
@@ -46,7 +46,7 @@ Removes command line box background and adds a blur behind it for a cleaner look
 
 <img width=600 src="https://user-images.githubusercontent.com/34758569/133005516-75e0de7d-b192-4548-84b3-f413c0d95851.png">
 
-
+<br>
 
 ## Style Themes
 
