@@ -16,7 +16,7 @@ Contact me in the #custom-themes channel of the Monkeytype discord if you need a
 
 ## Component Themes
 
-These are themes that change small parts of monkeytype and can be used together with any other theme.
+These are themes that change small parts of monkeytype and CAN BE USED TOGETHER WITH OTHER THEMES.
 
 ### Base
 
@@ -45,7 +45,7 @@ Removes command line box background and adds a blur behind it for a cleaner look
 
 ## Style Themes
 
-These are themes that change the color and feel of Monkeytype. Don't mix style themes together.
+These are themes that change the color and feel of Monkeytype. DON'T USE MULTIPLE STYLE THEMES AT ONCE.
 
 ### Iceland
 
