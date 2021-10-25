@@ -4,6 +4,8 @@ Welcome to monkeytype-themes, a repository containing custom  themes I have crea
 
 Contact me in the #custom-themes channel of the Monkeytype discord if you need any help (my username is refact0r).
 
+
+
 ## How to install themes
 
 1. Install the Stylus browser extension: [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
@@ -12,7 +14,9 @@ Contact me in the #custom-themes channel of the Monkeytype discord if you need a
 
 3. The stylus extension should open up with a button to install the style.
 
-**NOTE FOR FIREFOX USERS: You need to enable backdrop-filter in the firefox config for background blur to work. Tutorial [here](https://dev.to/snkds/how-to-enable-backdrop-filter-in-firefox-2n8e).**
+NOTE FOR FIREFOX USERS: You need to enable backdrop-filter in the firefox config for background blur to work. Tutorial [here](https://dev.to/snkds/how-to-enable-backdrop-filter-in-firefox-2n8e).
+
+
 
 ## Component Themes
 
@@ -41,6 +45,7 @@ Replaces the default Font Awesome icons with Bootstrap icons (which look better)
 Removes command line box background and adds a blur behind it for a cleaner look. Works best if you already have a background image.
 
 <img width=600 src="https://user-images.githubusercontent.com/34758569/133005516-75e0de7d-b192-4548-84b3-f413c0d95851.png">
+
 
 
 ## Style Themes
