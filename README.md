@@ -1,4 +1,4 @@
-## monkeytype-themes
+## Welcome
 
 Welcome to monkeytype-themes, a repository containing custom  themes I have created for [monkeytype](https://monkeytype.com).
 
