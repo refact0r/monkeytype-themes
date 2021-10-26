@@ -75,7 +75,8 @@
     }
     
     /* change live wpm and acc text size */
-    #largeLiveWpmAndAcc {
+    #liveWpm,
+    #liveAcc{
         font-size: 6rem;
     }
     
