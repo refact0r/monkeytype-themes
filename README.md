@@ -27,7 +27,7 @@ These are themes that change small parts of monkeytype and CAN BE USED TOGETHER 
 
 Basic tweaks like hiding the unnecessary bottom buttons, centering the top menu, and changing logo text.
 
-<img width=1000 src="https://user-images.githubusercontent.com/34758569/133004865-16617f82-fb29-47f4-b8a1-ee23f565eb74.png">
+<img width=1000 src="https://user-images.githubusercontent.com/34758569/138975611-a8d12eee-b541-40fb-be95-53f6b8ef1c07.png">
 <br>
 
 ### Icons  
@@ -35,7 +35,7 @@ Basic tweaks like hiding the unnecessary bottom buttons, centering the top menu,
 
 Replaces the default Font Awesome icons with Bootstrap icons (which look better). Also adds a few animations to the menu buttons and the buttons that show after completing a test.
 
-<img width=1000 src="https://user-images.githubusercontent.com/34758569/133005472-895d8a7c-ba79-4f9f-b478-ee1d11ac854a.png">
+<img src="https://user-images.githubusercontent.com/34758569/138975699-d8cff2b9-0b1c-4a76-9413-81923d260d54.png">
 <br>
 
 ### Clean command line
