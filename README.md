@@ -1,5 +1,3 @@
-# monkeytype-themes
-
 Welcome to monkeytype-themes, a repository containing custom  themes I have created for [monkeytype](https://monkeytype.com).
 
 Contact me in the #custom-themes channel of the Monkeytype discord if you need any help (my username is refact0r).
