@@ -46,6 +46,7 @@ Removes command line box background and adds a blur behind it for a cleaner look
 <img width=1000 src="https://user-images.githubusercontent.com/34758569/133005516-75e0de7d-b192-4548-84b3-f413c0d95851.png">
 <br>
 
+<br>
 
 ## Style Themes
 
