@@ -1,0 +1,76 @@
+/* ==UserStyle==
+@name           monkeytype dracula
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    dracula theme for monkeytype
+@author         refact0r
+@homepageURL    https://github.com/refact0r/monkeytype-themes
+@updateURL      https://github.com/refact0r/monkeytype-themes/raw/main/dracula.user.css
+==/UserStyle== */
+@-moz-document domain("monkeytype.com") {
+    /* theme colors */
+    * {
+        --bg-color: #282A36;
+        --main-color: #bd93f9;
+        --caret-color: #f2f2f2;
+        --sub-color: #6272a4;
+        --text-color: #f2f2f2;
+        --error-color: #f758a0;
+        --error-extra-color: #732e51;
+        --colorful-error-color: #f758a0;
+        --colorful-error-extra-color: #732e51;
+        text-shadow: 1px 1px 3px #00000020 !important;
+    }
+    
+    /* change logo text */
+    #top .logo .text .top:after {
+        content: 'monkeytype' !important;
+    }
+    #top .logo .text:after {
+        content: 'dracula' !important;
+    }
+    
+    #top {
+        margin-top: 60px;
+    }
+    /* menu transition */
+    #top.focus {
+        transform: none;
+    }
+    #top.focus .config {
+        transition: 1s ease;
+        opacity: 0 !important;
+    }
+    #top.focus #menu {
+        transition: 1s ease;
+        opacity: 0 !important;
+    }
+    #top.focus #menu .icon-button {
+        transition: 1s ease;
+        opacity: 0 !important;
+    }
+    #top.focus .logo .text {
+        color: var(--text-color) !important;
+    }
+    #top.focus .logo .top {
+        transition: 1s ease;
+    }
+    
+    .logo .icon {
+        visibility: hidden;
+        width: 160px !important;
+    }
+    .logo .icon svg {
+        display: none;
+    }
+    .logo .icon::after {
+        visibility: visible;
+        content: "";
+        position: absolute;
+        left: 2rem;
+        width: 200px;
+        height: 200px;
+        background: url("https://i.imgur.com/RtYB4Us.png");
+		background-size: cover;
+    }
+}
