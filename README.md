@@ -84,3 +84,10 @@ Nord theme. Colors based off the nord preset theme.
 <img width=1000 src="https://user-images.githubusercontent.com/34758569/134452193-18f45789-7a0c-492f-a1bc-4e2ae0de9218.png">
 <br>
 
+### Dracula
+[Install](https://github.com/refact0r/monkeytype-themes/raw/main/dracula.user.css)
+
+Dracula theme. Colors based off the dracula preset theme.
+
+<img width=1000 src="https://user-images.githubusercontent.com/34758569/139349994-24e2e062-527b-4d66-938b-4e677a27ddfe.png">
+<br>
