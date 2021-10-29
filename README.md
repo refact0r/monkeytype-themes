@@ -89,5 +89,6 @@ Nord theme. Colors based off the nord preset theme.
 
 Dracula theme. Colors based off the dracula preset theme.
 
-<img width=1000 src="https://user-images.githubusercontent.com/34758569/139349994-24e2e062-527b-4d66-938b-4e677a27ddfe.png">
+<img width=1000 src="https://user-images.githubusercontent.com/34758569/139508821-c9bd45af-cf76-4aaa-b6d8-f2d0492922ec.png">
+
 <br>
