@@ -1,8 +1,10 @@
 <h1>monkeytype-themes</h1>
 
-Welcome to monkeytype-themes, a repository containing custom  themes I have created for [monkeytype](https://monkeytype.com).
+Welcome to monkeytype-themes, a list of custom themes I have created for [monkeytype](https://monkeytype.com).
 
 Contact me in the #custom-themes channel of the Monkeytype discord if you need any help (my username is refact0r).
+
+Also please star the [github](https://github.com/refact0r/monkeytype-themes).
 
 <br>
 
