@@ -73,7 +73,7 @@ Gruvbox dark theme. Same colors as the preset theme gruvbox dark.
 ### Botanical
 [Install](https://github.com/refact0r/monkeytype-themes/raw/main/leaves.user.css)
 
-Botanical theme. Colors based off the botanical preset theme.
+Botanical theme. Colors based off the terrow below preset theme.
 
 <img width=1000 src="https://user-images.githubusercontent.com/34758569/135358100-33efec78-d2c7-4872-8a4b-f4b383ff1ad0.png">
 <br>
