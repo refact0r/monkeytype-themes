@@ -8,115 +8,79 @@
 @updateURL      https://github.com/refact0r/monkeytype-themes/raw/main/base.user.css
 ==/UserStyle== */
 
-@-moz-document domain("monkeytype.com") {    
-    /* hide scrollbar */
-    body {
-        overflow-y: hidden;
-    }
-    
+@-moz-document domain("monkeytype.com") {
     /* force font on logo */
     *:not(i) {
         font-family: var(--font) !important;
     }
-    
+
     /* hide bottom */
-	#bottom {
+    #bottom {
         display: none;
     }
-    
+
     /* center menu */
-	#top {
-		grid-template-columns: 1fr auto 1fr;
+    #top {
+        grid-template-columns: 1fr auto 1fr;
     }
 
     /* increase menu gap */
     #menu {
         gap: 1rem;
     }
-    
+
     /* hide account name */
     .icon-button .text {
         display: none;
     }
-    
+
     /* typing test margins */
     #middle {
         margin-left: 10%;
         margin-right: 10%;
     }
-    
+
     /* change logo text */
-    #top .logo .icon {
-        width: 3rem;
-    }
     #top .logo .text {
         visibility: hidden;
     }
+
     #top .logo .text .top:after {
         content: 'reject humanity';
-        visibility: visible; 
-        display: block; 
+        visibility: visible;
+        display: block;
         position: relative;
-        font-size: 0.8rem;
-        margin-top: -.8rem;
+        margin-top: -.7rem;
         margin-left: -.15rem;
     }
+
     #top .logo .text:after {
         content: 'become monke';
-        visibility: visible; 
-        display: block; 
+        visibility: visible;
+        display: block;
         position: relative;
         margin-top: -2rem;
     }
-    
+
     /* caret width */
     #caret.default {
         width: 1px;
     }
-    
+
     /* change live wpm and acc text size */
-    #largeLiveWpmAndAcc {
-        font-size: 6rem;
+    #liveWpm,
+    #liveAcc {
+        font-size: 7rem;
     }
-    
+
     /* letter fading */
     #words letter.correct {
         animation: fadeOut 3s ease forwards;
     }
+
     @keyframes fadeOut {
-        100% { opacity:0; }
-    }
-    
-    /* menu transition */
-    #top {
-        transition: transform 1s ease;
-    }
-    #top.focus {
-        transform: translateY(-100px);
-    }
-    #top.focus .config {
-        opacity: 1 !important;
-    }
-    #top.focus #menu {
-        color: var(--sub-color) !important;
-    }
-    #top.focus #menu .icon-button {
-        color: var(--sub-color) !important;
-    }
-    
-    /* live wpm and live acc transitions */
-    #liveWpm {
-        display: block !important;
-        transition: transform 1s ease;
-    }
-    #liveWpm.hidden {
-        transform: translateY(400px);
-    }
-    #liveAcc {
-        display: block !important;
-        transition: transform 1s ease;
-    }
-    #liveAcc.hidden {
-        transform: translateY(400px);
+        100% {
+            opacity: 0;
+        }
     }
 }
