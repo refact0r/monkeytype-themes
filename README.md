@@ -22,7 +22,7 @@ NOTE FOR FIREFOX USERS: You need to enable backdrop-filter in the firefox config
 
 ## Component Themes
 
-These are themes that change small parts of monkeytype and CAN BE USED TOGETHER WITH OTHER THEMES.
+These are themes that change small parts of monkeytype and can be used together.
 
 ### Base  
 [Install](https://github.com/refact0r/monkeytype-themes/raw/main/base.user.css)
@@ -52,7 +52,7 @@ Removes command line box background and adds a blur behind it for a cleaner look
 
 ## Style Themes
 
-These are themes that change the color and feel of Monkeytype. DON'T USE MULTIPLE STYLE THEMES AT ONCE.
+These are themes that change the color and feel of Monkeytype. Works best if used with Base theme, don't mix style themes together.
 
 ### Iceland
 [Install](https://github.com/refact0r/monkeytype-themes/raw/main/iceland.user.css)
