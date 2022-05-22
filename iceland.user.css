@@ -76,10 +76,4 @@
     #typingTest {
         margin-top: 2rem;
     }
-
-    /* remove shadow when test starts */
-    #top.focus #menu,
-    #top.focus #menu .text-button {
-        text-shadow: none;
-    }
 }
