@@ -8,6 +8,7 @@
 @updateURL      https://github.com/refact0r/monkeytype-themes/raw/main/botanical.user.css
 ==/UserStyle== */
 @-moz-document domain("monkeytype.com") {
+
     /* override theme colors */
     /* also theme link: https://monkeytype.com?customTheme=WyIjMGIxZTFhIiwiIzc0YjRhZSIsIiM3NGI0YWUiLCIjM2Q3MTY3IiwiIzA0MTcxNSIsIiNlOWYwZjMiLCIjYmY2MTZhIiwiIzc5M2U0NCIsIiNiZjYxNmEiLCIjNzkzZTQ0Il0= */
     * {
@@ -61,5 +62,11 @@
         display: block;
         position: relative;
         margin-top: -2rem;
+    }
+
+    /* remove shadow when test starts */
+    #top.focus #menu,
+    #top.focus #menu .text-button {
+        text-shadow: none;
     }
 }
