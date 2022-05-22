@@ -48,7 +48,7 @@
     }
 
     #top .logo .text .top:after {
-        content: 'monkeytype';
+        content: 'monkeytype' !important;
         visibility: visible;
         display: block;
         position: relative;
@@ -57,7 +57,7 @@
     }
 
     #top .logo .text:after {
-        content: 'botanical';
+        content: 'botanical' !important;
         visibility: visible;
         display: block;
         position: relative;

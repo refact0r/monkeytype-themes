@@ -8,6 +8,7 @@
 @updateURL      https://github.com/refact0r/monkeytype-themes/raw/main/iceland.user.css
 ==/UserStyle== */
 @-moz-document domain("monkeytype.com") {
+
     /* theme colors */
     * {
         --bg-color: #161821;
@@ -46,7 +47,7 @@
     }
 
     #top .logo .text .top:after {
-        content: 'monkeytype';
+        content: 'monkeytype' !important;
         visibility: visible;
         display: block;
         position: relative;
@@ -55,7 +56,7 @@
     }
 
     #top .logo .text:after {
-        content: 'iceland';
+        content: 'iceland' !important;
         visibility: visible;
         display: block;
         position: relative;
