@@ -24,10 +24,6 @@
     }
 
     /* background and effects */
-    body {
-        text-shadow: 1px 1px 3px #00000050 !important;
-    }
-
     .customBackground {
         background-image: url("https://data.1freewallpapers.com/download/bridge-aerial-view-river-ice-iceland.jpg") !important;
         background-size: cover;
