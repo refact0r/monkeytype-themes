@@ -1,5 +1,7 @@
 <h1>monkeytype-themes</h1>
 
+**NOTE: NO LONGER ACTIVELY MAINTAINED.**
+
 Welcome to monkeytype-themes, a list of custom themes I have created for [monkeytype](https://monkeytype.com).
 
 Contact me in the #custom-themes channel of the Monkeytype discord if you need any help (my username is refact0r).
