@@ -1,6 +1,7 @@
 <h1>monkeytype-themes</h1>
 
-**NOTE: NO LONGER ACTIVELY MAINTAINED.**
+> [!WARNING]
+> NO LONGER ACTIVELY MAINTAINED. THEMES ARE OUTDATED.
 
 Welcome to monkeytype-themes, a list of custom themes I have created for [monkeytype](https://monkeytype.com).
 
